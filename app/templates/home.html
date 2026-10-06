@@ -3,6 +3,9 @@
 {% block main %}
 <p>Welcome to our brewsite page</p>
 <p> {{ user }}</p>
+<img src="{{ url_for('static', filename = 'images/beer1.jpg') }}" alt="cold beer 1">
+<img src="{{ url_for('static', filename = 'images/beer2.jpg') }}" alt="cold beer 2">
+<img src="{{ url_for('static', filename = 'images/beer3.jpg') }}" alt="cold beer 3">
 
 {% endblock main %}
 
